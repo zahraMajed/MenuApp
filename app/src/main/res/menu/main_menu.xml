@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- step 1 :create Android resource file of type menu
+    (java file right click then new) -->
+
+    <item
+        android:title="Home"
+        android:id="@+id/itme_menu_Home"
+        app:showAsAction="never"/>
+    <item
+        android:title="About"
+        android:id="@+id/itme_menu_About"
+        app:showAsAction="never" />
+    <item
+        android:title="Help"
+        android:id="@+id/item_menu_Help"
+        app:showAsAction="never"/>
+
+</menu>
